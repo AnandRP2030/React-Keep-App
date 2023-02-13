@@ -1,7 +1,9 @@
+import Navbar from "./components/Navbar/navbar.jsx";
+
 function App (){
   return (
     <div> 
-      <h1> Google Keep </h1>
+    <Navbar/>
     </div>
   )
 }

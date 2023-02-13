@@ -1,0 +1,86 @@
+.navbar {
+  width: 100%;
+  height: 65px;
+  background-color: #202023;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+  box-sizing: border-box;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 16%;
+}
+
+.navbar .hamburger {
+  color: white;
+}
+
+.navLogo {
+  height: 40px;
+}
+
+.navIcon {
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.navHeading {
+  color: rgb(255, 255, 255);
+}
+
+.navCenter {
+  width: 25%;
+}
+
+.searchIcon{
+  position: absolute;
+  top: 20px;
+  color: white;
+  font-size: 1.5rem;
+  left: 38%;
+}
+
+
+
+.navSearch {
+  border-radius: 24px;
+  width: 100%;
+  height: 31px;
+  padding-left: 37px;
+  box-sizing: border-box;
+  background: gray;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+}
+
+.navCenter .navSearch:focus{
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.searchIconFocused{
+  color: black;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; 
+}
+
+.navRight {
+  position: relative;
+  width: 17%;
+  display: flex;
+  justify-content: space-around;
+  
+}
