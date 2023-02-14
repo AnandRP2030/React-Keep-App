@@ -27,27 +27,25 @@
 
 .navIcon {
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 
 .navHeading {
   color: rgb(255, 255, 255);
+  font-size: 1rem;
 }
-
 .navCenter {
   width: 25%;
 }
 
-.searchIcon{
+.searchIcon {
   position: absolute;
   top: 20px;
   color: white;
   font-size: 1.5rem;
   left: 38%;
 }
-
-
 
 .navSearch {
   border-radius: 24px;
@@ -62,19 +60,19 @@
   letter-spacing: 3px;
 }
 
-.navCenter .navSearch:focus{
+.navCenter .navSearch:focus {
   border: none;
   background-color: white;
   color: black;
 }
 
-.searchIconFocused{
+.searchIconFocused {
   color: black;
 }
 
 ::placeholder {
   color: white;
-  opacity: 1; 
+  opacity: 1;
 }
 
 .navRight {
@@ -82,5 +80,4 @@
   width: 17%;
   display: flex;
   justify-content: space-around;
-  
 }
