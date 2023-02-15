@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2%;
+  padding: 0 1.2%;
   box-sizing: border-box;
 }
 
@@ -27,7 +27,7 @@
 
 .navIcon {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -53,21 +53,21 @@
   height: 31px;
   padding-left: 37px;
   box-sizing: border-box;
-  background: gray;
+  background: #525355;
   color: white;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 3px;
 }
 
 .navCenter .navSearch:focus {
   border: none;
-  background-color: white;
-  color: black;
+  color: white;
 }
 
 .searchIconFocused {
-  color: black;
+  color: white;
+  font-size: 1rem;
 }
 
 ::placeholder {

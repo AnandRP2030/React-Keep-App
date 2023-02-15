@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 
 export default function Navbar() {
 
-  const [isSearchFocus, setFoucs] = useState(false);
+
 
 
 
@@ -22,8 +22,8 @@ export default function Navbar() {
       </div>
 
       <div className={styles.navCenter}>
-        <span className={`material-symbols-outlined ${styles.navIcon} ${styles.searchIcon} ${isSearchFocus ? styles.searchIconFocused : ''}`}> search </span>
-        <input placeholder="Search" className={styles.navSearch} onFoucs={() => setFoucs(true)} onBlur={() => setFoucs(false)}/>
+        <span className={`material-symbols-outlined ${styles.navIcon} ${styles.searchIcon}`}> search </span>
+        <input placeholder="Search" className={styles.navSearch}/>
       </div>
 
       <div className={styles.navRight}>
