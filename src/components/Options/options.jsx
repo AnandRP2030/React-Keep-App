@@ -1,8 +1,8 @@
 import styles from "./options.module.css";
 
-function Options({active, emojiName, title }) {
+function Options({ active, emojiName, title }) {
   return (
-    <div className={`${styles.box} ${active ? styles.bgBrown:""}`}>
+    <div className={`${styles.box} ${active ? styles.bgBrown : ""}`}>
       <div className={styles.icons}>
         <span className={`material-symbols-outlined`}>{emojiName}</span>
       </div>

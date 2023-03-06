@@ -1,27 +1,25 @@
-.box{
-  
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    margin: auto;
-    color: white;
-    border-radius: 0 35px 35px 0;
-    font-size: .8rem;
-    box-sizing: border-box;
-    padding-left: 28px;
-    cursor: pointer;
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  color: white;
+  border-radius: 0 35px 35px 0;
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  padding-left: 28px;
+  cursor: pointer;
 }
 
-.bgBrown{
-    background-color: #41331c;
+.bgBrown {
+  background-color: #41331c;
 }
 
-
-.icons{
-    width: 20%;
+.icons {
+  width: 20%;
 }
 
 .labels {
-    width: 80%;
+  width: 80%;
 }

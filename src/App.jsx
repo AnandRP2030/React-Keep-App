@@ -5,7 +5,6 @@ import TakeNote from "./components/TakeNote/InputNote.jsx";
 import { DisplayNote } from "./components/DisplayNote/displayNote.jsx";
 import { useState } from "react";
 function App() {
-
   const [noteArray, setNoteArray] = useState([]);
 
   function addNote(value) {
@@ -16,8 +15,8 @@ function App() {
     <div>
       <Navbar />
       <LeftNav />
-      <TakeNote addNote={addNote}/>
-      <DisplayNote noteArray={noteArray}/>
+      <TakeNote addNote={addNote} />
+      <DisplayNote noteArray={noteArray} />
       <Footer />
     </div>
   );
