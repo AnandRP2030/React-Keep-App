@@ -1,0 +1,15 @@
+.takeInput {
+  border-radius: 8px;
+  width: 39%;
+  height: 45px;
+  padding-left: 37px;
+  box-sizing: border-box;
+  background: transparent;
+  color: white;
+  border: 1px solid gray;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  position: relative;
+  bottom: 972px;
+  left: 42%;
+}

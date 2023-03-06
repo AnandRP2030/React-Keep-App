@@ -1,0 +1,25 @@
+.displayContainer {
+    width: 71%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    height: auto;
+    position: relative;
+    bottom: 908px;
+    left: 8%;
+    gap: 10px;
+    padding: 10px 2%;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    background-color: transparent;
+    height: 100px; 
+    border: 1px solid #ccc4c4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}

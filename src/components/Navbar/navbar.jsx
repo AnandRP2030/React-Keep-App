@@ -1,16 +1,13 @@
 import styles from "./navbar.module.css";
-import React, {useState} from 'react';
+import React, { useState } from "react";
 
 export default function Navbar() {
-
-
-
-
-
   return (
     <div className={styles.navbar}>
       <div className={styles.navLeft}>
-        <span className={`material-symbols-outlined ${styles.navIcon} ${styles.hamburger}`}>
+        <span
+          className={`material-symbols-outlined ${styles.navIcon} ${styles.hamburger}`}
+        >
           menu
         </span>
         <img
@@ -22,16 +19,35 @@ export default function Navbar() {
       </div>
 
       <div className={styles.navCenter}>
-        <span className={`material-symbols-outlined ${styles.navIcon} ${styles.searchIcon}`}> search </span>
-        <input placeholder="Search" className={styles.navSearch}/>
+        <span
+          className={`material-symbols-outlined ${styles.navIcon} ${styles.searchIcon}`}
+        >
+          {" "}
+          search{" "}
+        </span>
+        <input placeholder="Search" className={styles.navSearch} />
       </div>
 
       <div className={styles.navRight}>
-        <span className={`material-symbols-outlined ${styles.navIcon}`}>restart_alt</span>
-        <span className={`material-symbols-outlined ${styles.navIcon}`}> view_list</span>
-        <span className={`material-symbols-outlined ${styles.navIcon}`}> settings</span>
-        <span className={`material-symbols-outlined ${styles.navIcon}`}> apps </span>
-        <span className={`material-symbols-outlined ${styles.navIcon}`}> account_circle</span>
+        <span className={`material-symbols-outlined ${styles.navIcon}`}>
+          restart_alt
+        </span>
+        <span className={`material-symbols-outlined ${styles.navIcon}`}>
+          {" "}
+          view_list
+        </span>
+        <span className={`material-symbols-outlined ${styles.navIcon}`}>
+          {" "}
+          settings
+        </span>
+        <span className={`material-symbols-outlined ${styles.navIcon}`}>
+          {" "}
+          apps{" "}
+        </span>
+        <span className={`material-symbols-outlined ${styles.navIcon}`}>
+          {" "}
+          account_circle
+        </span>
       </div>
     </div>
   );
